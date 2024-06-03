@@ -9,6 +9,9 @@ import shutil
 import argparse
 import logging as logger
 
+# Change the working directory to the location of the cloned repository
+os.chdir('/content/FaceX-Zoo-Custom')
+
 import torch
 from torch import optim
 from torch.utils.data import DataLoader
